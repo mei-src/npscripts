@@ -87,14 +87,15 @@
     };
 
     // == Quick Return ==
-    //function createListeners() {
+    function createListeners() {
         document.addEventListener('click', function(event) {
             if (event.target.tagName === 'A' && event.target.classList.contains('sqq-link')) {
                 localStorage.setItem("sqqQLActive", "true");
-                createReturnQL();
+            } else if (event.target.classList.contains('sqq-close-button')) {
+                sqqReturnClose();
             }
         });
-    //};
+    };
 
     // == Quick Return Functions ==
     function createReturnQL() {
@@ -103,11 +104,6 @@
             if (window.location.href != 'https://www.neopets.com/questlog/') {
                 document.body.insertAdjacentHTML('afterbegin', returnQL);
                 document.querySelector("#sqq-return").classList.add("sqq-active");
-                document.addEventListener('click', function(event) {
-                    if (event.target.classList.contains('sqq-close-button')) {
-                        sqqReturnClose();
-                    }
-                });
             } else {
                 sqqReturnClose();
             }
