@@ -16,12 +16,7 @@
     if (window.top != window.self) return; // exclude frames
 
     // == HTML/CSS injections ==
-    const style = `
-    <style>
-      .sqq-link { font-style: italic; }
-    </style>`;
-
-    const returnQL = `
+    const sqq_QR_element = `
     <style>
         #sqq-return {
             position: fixed;
@@ -66,7 +61,8 @@
         'customise': ["https://www.neopets.com/customise/"],
     };
 
-    // == Add links == 
+
+    // * Quest Log Page
     function createLinks() {
         const taskDescriptions = document.querySelectorAll('.ql-task-description');
         taskDescriptions.forEach(task => {
@@ -86,39 +82,54 @@
         });
     };
 
-    // == Quick Return ==
-    function createListeners() {
+    function createLinksListener() {
         document.addEventListener('click', function(event) {
-            if (event.target.tagName === 'A' && event.target.classList.contains('sqq-link')) {
-                localStorage.setItem("sqqQLActive", "true");
-            } else if (event.target.classList.contains('sqq-close-button')) {
-                sqqReturnClose();
+            if (event.target.classList.contains('sqq-link')) {
+                localStorage.setItem("sqq_QRState", true);
+            } 
+        });
+    };
+
+    // * Outside Quest Log Page
+    function createQR() {
+        let isActive = localStorage.getItem("sqq_QRState");
+        if (isActive === true) {
+            document.body.insertAdjacentHTML('afterbegin', sqq_QR_element);
+            document.querySelector("#sqq-return").classList.add("sqq-active");
+        }
+    };
+
+    function createQRListener() {
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('sqq-close-button')) {
+                stopQR();
             }
         });
     };
 
-    // == Quick Return Functions ==
-    function createReturnQL() {
-        let QLactive = localStorage.getItem("sqqQLActive");
-        if (QLactive === "true") {
-            if (window.location.href != 'https://www.neopets.com/questlog/') {
-                document.body.insertAdjacentHTML('afterbegin', returnQL);
-                document.querySelector("#sqq-return").classList.add("sqq-active");
-            } else {
-                sqqReturnClose();
-            }
-        }
-    };
 
-    function sqqReturnClose() {
-        localStorage.setItem("sqqQLActive", "false");
+    // * Shared
+    function stopQR() {
+        localStorage.setItem("sqq_QRState", false);
         document.querySelector("#sqq-return").classList.remove("sqq-active");
     };
 
+    function sqq_isQuestLog() {
+        let sqq_currentPage = window.location.href;
+        if (sqq_currentPage == "https://www.neopets.com/questlog/") {
+            return true;
+        } else { 
+            return false; 
+        }
+    }
+
     // == Page Load ==
-    document.body.insertAdjacentHTML('afterbegin', style);
-    createLinks();
-    createListeners();
-    createReturnQL();
+    if (sqq_isQuestLog()) {
+        createLinks();
+        createLinksListener();
+    } else {
+        createQR();
+        createQRListener();
+    };
 
 })();
