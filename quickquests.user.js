@@ -15,11 +15,6 @@
     'use strict';
     if (window.top != window.self) return; // exclude frames
 
-
-    //========= User Settings, edit here =========
-    const ENABLE_QUICK_RETURN = true; // Quick link back to the quest log after using a shortcut
-    //============================================
-
     // == HTML/CSS injections ==
     const style = `
     <style>
@@ -136,6 +131,6 @@
     document.body.insertAdjacentHTML('afterbegin', style);
     createLinks();
     createListeners();
-    if (ENABLE_QUICK_RETURN) {createReturnQL()};
+    createReturnQL();
 
 })();
