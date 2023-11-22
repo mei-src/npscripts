@@ -13,6 +13,8 @@
     'use strict';
     //if (window.top != window.self) return; // exclude frames
 
+    const BENNY = "https://media.discordapp.net/attachments/1117257149932916786/1159573620511744121/image0.gif";
+
     function replaceRecursively(element, from, to) {
         if (element.childNodes.length) {
             element.childNodes.forEach(child => replaceRecursively(child, from, to));
@@ -34,7 +36,7 @@
         let images = document.querySelectorAll('img');
         images.forEach(function(img) {
             if (wocky_images.some(url => img.src.includes(url))) {
-                img.src = "https://media.discordapp.net/attachments/1117257149932916786/1159573620511744121/image0.gif"
+                img.src = BENNY;
             };
         });
         // background images - inline only right now
@@ -44,7 +46,7 @@
             if (wocky_images.some(url => img.style.backgroundImage.includes(url))) {
                 // Replace the background image URL with a new URL
                 // You can set the new background image URL as needed
-                img.style.backgroundImage = "url('https://media.discordapp.net/attachments/1117257149932916786/1159573620511744121/image0.gif')";
+                img.style.backgroundImage = `url(${BENNY})`;
             }
         });
 
