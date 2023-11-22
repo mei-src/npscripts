@@ -98,7 +98,7 @@
     function createListeners() {
         document.addEventListener('click', function(event) {
             if (event.target.classList.contains('sqq-link')) {
-                localStorage.setItem("sqqQLActive",true);
+                localStorage.setItem("sqqQLActive","true");
                 createReturnQL();
             }
         });
@@ -107,7 +107,7 @@
     // == Quick Return Functions ==
     function createReturnQL() {
         let QLactive = localStorage.getItem("sqqQLActive");
-        if (QLactive) {
+        if (QLactive === "true") {
             if (window.location.href != 'https://www.neopets.com/questlog/') {
                 // Create element
                 document.body.insertAdjacentHTML('afterbegin', returnQL);
@@ -126,8 +126,8 @@
     };
 
     function sqqReturnClose() {
+        localStorage.setItem("sqqQLActive","false");
         document.querySelector("#sqq-return").classList.remove("sqq-active");
-        localStorage.setItem("sqqQLActive",false);
     };
 
     // == Page Load ==
