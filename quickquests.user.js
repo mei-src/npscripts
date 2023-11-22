@@ -100,7 +100,7 @@
     // == Quick Return Functions ==
     function createReturnQL() {
         let QLactive = localStorage.getItem("sqqQLActive");
-        if (QLactive == "true") {
+        if (QLactive === "true") {
             if (window.location.href != 'https://www.neopets.com/questlog/') {
                 document.body.insertAdjacentHTML('afterbegin', returnQL);
                 document.querySelector("#sqq-return").classList.add("sqq-active");
@@ -118,7 +118,7 @@
     // == Page Load ==
     document.body.insertAdjacentHTML('afterbegin', style);
     createLinks();
-    //createListeners();
+    createListeners();
     createReturnQL();
 
 })();
