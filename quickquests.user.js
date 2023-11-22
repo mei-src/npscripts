@@ -104,7 +104,7 @@
     // == Quick Return Functions ==
     function createReturnQL() {
         let QLactive = localStorage.getItem("sqqQLActive");
-        if (QLactive === "true") {
+        if (QLactive == "true") {
             if (window.location.href != 'https://www.neopets.com/questlog/') {
                 // Create element
                 document.body.insertAdjacentHTML('afterbegin', returnQL);
