@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Starry's Quick Quests
 // @namespace    https://github.com/mei-src
-// @version      3.0
-// @description  Adds links in the quest log
+// @version      3.1
+// @description  Adds links to complete activities in the Quest Log easier. These links pop up in a new tab, stopping unnecessary page refreshing. The Quick Return box helps users go back to the Quest Log. 
 // @author       mei-src
 // @match        http://www.neopets.com/*
 // @match        https://www.neopets.com/*
@@ -13,12 +13,13 @@
 
 (function() {
     'use strict';
+
     if (window.top != window.self) return; // exclude frames
 
     // == HTML/CSS injections ==
-    const sqq_QR_element = `
+    const sqq_QuickReturnElement = `
     <style>
-        #sqq_QR {
+        #sqq_QuickReturn {
             position: fixed;
             bottom: 5px;
             right: 5px;
@@ -31,13 +32,13 @@
             border: 3px solid red;
             color: #fff;
         }
-        #sqq_QR.sqq_active {display: block;}
-        #sqq_QR button:hover {display: pointer;}
-        #sqq_QR img:hover {background: red;}
+        #sqq_QuickReturn.sqq_isActive {display: block;}
+        #sqq_QuickReturn button:hover {display: pointer;}
+        #sqq_QuickReturn img:hover {background: red;}
     </style>
-    <div id="sqq_QR">
+    <div id="sqq_QuickReturn">
         <a href="https://www.neopets.com/questlog"><img src="https://images.neopets.com/themes/h5/basic/images/quests-icon.svg?d=20210209" height="75px" alt="Return to Quest Log"></a><br>
-        <button class="sqq_QR_close">Close window</button>
+        <button class="sqq_QuickReturnClose">Close window</button>
     </div>
     `;
 
@@ -68,7 +69,7 @@
                         link.href = url;
                         link.textContent = `🔗`;
                         link.target = "_blank";
-                        link.className = "sqq_QL_link";
+                        link.className = "sqq_QuestLogLink";
                         task.appendChild(link);
                     }
                 }
@@ -78,24 +79,24 @@
 
     function createLinksListener() {
         document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('sqq_QL_link')) {
-                localStorage.setItem("sqq_QR_State", "true");
+            if (event.target.classList.contains('sqq_QuestLogLink')) {
+                localStorage.setItem("sqq_QuickReturnState", "true");
             } 
         });
     };
 
     // * Outside Quest Log Page
     function createQR() {
-        let isActive = localStorage.getItem("sqq_QR_State");
+        let isActive = localStorage.getItem("sqq_QuickReturnState");
         if (isActive === "true") {
-            document.body.insertAdjacentHTML('afterbegin', sqq_QR_element);
-            document.querySelector("#sqq_QR").classList.add("sqq_active");
+            document.body.insertAdjacentHTML('afterbegin', sqq_QuickReturnElement);
+            document.querySelector("#sqq_QuickReturn").classList.add("sqq_isActive");
         }
     };
 
     function createQRListener() {
         document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('sqq_QR_close')) {
+            if (event.target.classList.contains('sqq_QuickReturnClose')) {
                 stopQR();
             }
         });
@@ -104,13 +105,13 @@
 
     // * Shared
     function stopQR() {
-        localStorage.setItem("sqq_QR_State", "false");
-        document.querySelector("#sqq_QR").classList.remove("sqq_active");
+        localStorage.setItem("sqq_QuickReturnState", "false");
+        document.querySelector("#sqq_QuickReturn").classList.remove("sqq_isActive");
     };
 
     function sqq_isQuestLog() {
         let sqq_currentPage = window.location.href;
-        return (sqq_currentPage == "https://www.neopets.com/questlog/");
+        return (sqq_currentPage === "https://www.neopets.com/questlog/");
     };
 
     // == Page Load ==
