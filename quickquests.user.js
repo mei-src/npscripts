@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starry's Quick Quests
 // @namespace    https://github.com/mei-src
-// @version      2.1
+// @version      3.0
 // @description  Adds links in the quest log
 // @author       mei-src
 // @match        http://www.neopets.com/*
