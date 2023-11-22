@@ -87,14 +87,14 @@
     };
 
     // == Quick Return ==
-    function createListeners() {
+    //function createListeners() {
         document.addEventListener('click', function(event) {
             if (event.target.tagName === 'A' && event.target.classList.contains('sqq-link')) {
                 localStorage.setItem("sqqQLActive", "true");
                 createReturnQL();
             }
         });
-    };
+    //};
 
     // == Quick Return Functions ==
     function createReturnQL() {
@@ -122,7 +122,7 @@
     // == Page Load ==
     document.body.insertAdjacentHTML('afterbegin', style);
     createLinks();
-    createListeners();
+    //createListeners();
     createReturnQL();
 
 })();
