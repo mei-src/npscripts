@@ -7,6 +7,8 @@
 // @match        http://www.neopets.com/*
 // @match        https://www.neopets.com/*
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/mei-src/npscripts/main/quickquests.js
+// @updateURL    https://raw.githubusercontent.com/mei-src/npscripts/main/quickquests.js
 // ==/UserScript==
 
 (function() {
