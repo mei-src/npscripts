@@ -79,7 +79,7 @@
     function createLinksListener() {
         document.addEventListener('click', function(event) {
             if (event.target.classList.contains('sqq_QL_link')) {
-                localStorage.setItem("sqq_QR_State", true);
+                localStorage.setItem("sqq_QR_State", "true");
             } 
         });
     };
@@ -87,7 +87,7 @@
     // * Outside Quest Log Page
     function createQR() {
         let isActive = localStorage.getItem("sqq_QR_State");
-        if (isActive == true) {
+        if (isActive === "true") {
             document.body.insertAdjacentHTML('afterbegin', sqq_QR_element);
             document.querySelector("#sqq_QR").classList.add("sqq_active");
         }
@@ -104,7 +104,7 @@
 
     // * Shared
     function stopQR() {
-        localStorage.setItem("sqq_QR_State", false);
+        localStorage.setItem("sqq_QR_State", "false");
         document.querySelector("#sqq_QR").classList.remove("sqq_active");
     };
 
