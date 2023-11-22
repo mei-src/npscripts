@@ -1,0 +1,102 @@
+                            <li>Neopia Central
+                                <ul>
+                                    <li>Art Centre</li>
+                                    <li>General Store</li>
+                                    <li>Bookshop</li>
+                                    <li>Food Shop</li>
+                                    <li>Petpet Shop</li>
+                                    <li>Magic Shop</li>
+                                    <li>Pharmacy</li>
+                                    <li>Post Office</li>
+                                    <li>Collectable Coins</li>
+                                    <li>Toy Shop</li>
+                                    <li>Health Food</li>
+                                    <li>Neohome Superstore</li>
+                                    <li>Merch Shop</li>
+                                    <li>Petpet Supplies</li>
+                                    <li>Wizard Shop</li>
+                                    <li>Grooming Parlour</li>
+                                    <li>Chocolate Factory</li>
+                                    <li>Unis Clothing</li>
+                                    <li>TCG Shop</li>
+                                    <li>Fine Furniture</li>
+                                    <li>Fresh Smoothies</li>
+                                    <li>Huberts Hotdogs</li>
+                                    <li>Battle Magic</li>
+                                    <li>The Bakery</li>
+                                    <li>Gardening Supplies</li>
+                                    <li>Usukiland</li>
+                                    <li>Defence Magic</li>
+                                    <li>Gifts Galore</li>
+                                    <li>Plushie Shop</li>
+                                    <li>Pizzaroo</li>
+                                    <li>School Supplies</li>
+                                    <li>Music Shop</li>
+                                </ul>
+                            </li>
+                            <li>Altador
+                                <ul>
+                                    <li>Illustrious Armoury</li>
+                                    <li>Magical Marvels</li>
+                                    <li>Exquisite Ambrosia</li>
+                                    <li>Legendary Petpets</li>
+                                </ul>
+                            </li>
+                            <li>Brightvale
+                                <ul>
+                                    <li>Royal Potionery</li>
+                                    <li>Brightvale Glaziers</li>
+                                    <li>The Scrollery</li>
+                                    <li>Brightvale Armoury</li>
+                                    <li>Brightvale Books</li>
+                                    <li>Brightvale Motery</li>
+                                    <li>Fruits of Brightvale</li>
+                                </ul>
+                            </li>
+                            <li>Faerieland's Healing Springs</li>
+                            <li>Kiko Lake Goods</li>
+                            <li><a href="https://www.neopets.com/pirates/piratepets.phtml">Krawk Island Little Nippers</a></li>
+                            <li>Kreludor
+                                <ul>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=70">Booktastic Bookos</a></li>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=72">Cafe Kreludor</a></li>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=71">Kreludan Homes</a></li>
+                                </ul>
+                            </li>
+                            <li>Maraqua
+                                <ul>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=87">Maractite Battledome Items</a></li>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=88">Maractite Petpets</a></li>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=86">Collectable Sea Shells</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=57">Meridell | Ye Olde Petpets</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=110">Moltara | Lampwyck's Lights Fantastic</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=112">Moltara | Molten Morsels</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=27">The Rock Pool</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=89">Geraptiku Petpets</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=21">Tiki Tack</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=34">The Coffee Cave</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=76">Roo Island Souvenirs</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=116">Roo Island Spring Shop</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=102">Shenkuu | Remarkable Restoratives</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=101">Shenkuu | Exotic Foods</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=100">Shenkuu | Wonderous Weaponry</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=103">Shenkuu | Fanciful Fauna</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=35">Terror Mountain | Slushie Shop</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=61">Wintery Petpets</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=36">Ice Crystal Shop</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=91">Desert Arms</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=92">Words of Antiquity</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=90">Qasalan Delights</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=108">Mystical Surroundings</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=50">Peopatra's Petpets</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=49">Lost Desert Foods</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=55">Osiri's Pottery</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=85">Lost Desert Medicine</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=54">Sakhmet Battle Supplies</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=51">Sutek's Scrolls</a></li>
+                            <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=42">Tyrannian Foods</a></li>
+                            
+                        </ul>
