@@ -79,14 +79,14 @@
     function createLinksListener() {
         document.addEventListener('click', function(event) {
             if (event.target.classList.contains('sqq_QL_link')) {
-                localStorage.setItem("sqq_QRState", true);
+                localStorage.setItem("sqq_QR_State", true);
             } 
         });
     };
 
     // * Outside Quest Log Page
     function createQR() {
-        let isActive = localStorage.getItem("sqq_QRState");
+        let isActive = localStorage.getItem("sqq_QR_State");
         if (isActive == true) {
             document.body.insertAdjacentHTML('afterbegin', sqq_QR_element);
             document.querySelector("#sqq_QR").classList.add("sqq_active");
@@ -104,18 +104,14 @@
 
     // * Shared
     function stopQR() {
-        localStorage.setItem("sqq_QRState", false);
+        localStorage.setItem("sqq_QR_State", false);
         document.querySelector("#sqq_QR").classList.remove("sqq_active");
     };
 
     function sqq_isQuestLog() {
         let sqq_currentPage = window.location.href;
-        if (sqq_currentPage == "https://www.neopets.com/questlog/") {
-            return true;
-        } else { 
-            return false; 
-        }
-    }
+        return (sqq_currentPage == "https://www.neopets.com/questlog/");
+    };
 
     // == Page Load ==
     if (sqq_isQuestLog()) {
