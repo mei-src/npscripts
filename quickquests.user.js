@@ -18,7 +18,7 @@
     // == HTML/CSS injections ==
     const sqq_QR_element = `
     <style>
-        #sqq-return {
+        #sqq_QR {
             position: fixed;
             bottom: 5px;
             right: 5px;
@@ -31,19 +31,13 @@
             border: 3px solid red;
             color: #fff;
         }
-        #sqq-return.sqq-active {
-            display: block;
-        }
-        #sqq-return button:hover {
-            display: pointer;
-        }
-        #sqq-return img:hover {
-            background: red;
-        }
+        #sqq_QR.sqq_active {display: block;}
+        #sqq_QR button:hover {display: pointer;}
+        #sqq_QR img:hover {background: red;}
     </style>
-    <div id="sqq-return">
+    <div id="sqq_QR">
         <a href="https://www.neopets.com/questlog"><img src="https://images.neopets.com/themes/h5/basic/images/quests-icon.svg?d=20210209" height="75px" alt="Return to Quest Log"></a><br>
-        <button class="sqq-close-button">Close window</button>
+        <button class="sqq_QR_close">Close window</button>
     </div>
     `;
 
@@ -74,7 +68,7 @@
                         link.href = url;
                         link.textContent = `🔗`;
                         link.target = "_blank";
-                        link.className = "sqq-link";
+                        link.className = "sqq_QL_link";
                         task.appendChild(link);
                     }
                 }
@@ -84,7 +78,7 @@
 
     function createLinksListener() {
         document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('sqq-link')) {
+            if (event.target.classList.contains('sqq_QL_link')) {
                 localStorage.setItem("sqq_QRState", true);
             } 
         });
@@ -93,15 +87,15 @@
     // * Outside Quest Log Page
     function createQR() {
         let isActive = localStorage.getItem("sqq_QRState");
-        if (isActive === true) {
+        if (isActive == true) {
             document.body.insertAdjacentHTML('afterbegin', sqq_QR_element);
-            document.querySelector("#sqq-return").classList.add("sqq-active");
+            document.querySelector("#sqq_QR").classList.add("sqq_active");
         }
     };
 
     function createQRListener() {
         document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('sqq-close-button')) {
+            if (event.target.classList.contains('sqq_QR_close')) {
                 stopQR();
             }
         });
@@ -111,7 +105,7 @@
     // * Shared
     function stopQR() {
         localStorage.setItem("sqq_QRState", false);
-        document.querySelector("#sqq-return").classList.remove("sqq-active");
+        document.querySelector("#sqq_QR").classList.remove("sqq_active");
     };
 
     function sqq_isQuestLog() {
