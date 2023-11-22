@@ -18,7 +18,7 @@
     // == HTML/CSS injections ==
     const style = `
     <style>
-      .sqq-link {font-style: italic;}
+      .sqq-link { font-style: italic; }
     </style>`;
 
     const returnQL = `
@@ -31,7 +31,7 @@
             padding: 15px;
             text-align: center;
             display: none;
-            font: 16px/1.5 Arial,Helvetica,sans-serif;
+            font: 16px/1.5 Arial, Helvetica, sans-serif;
             background: pink;
             border: 3px solid red;
             color: #fff;
@@ -71,12 +71,9 @@
     // == Add links == 
     function createLinks() {
         const taskDescriptions = document.querySelectorAll('.ql-task-description');
-        // Search through Task Descriptions
         taskDescriptions.forEach(task => {
             const lowerCaseTaskText = task.textContent.toLowerCase();
-            // Iterate through key phrases
             for (const k in sqq_Dictionary) {
-                // If key phrase found
                 if (lowerCaseTaskText.includes(k.toLowerCase())) {
                     for (const url of sqq_Dictionary[k]) {
                         const link = document.createElement('a');
@@ -95,7 +92,7 @@
     function createListeners() {
         document.addEventListener('click', function(event) {
             if (event.target.classList.contains('sqq-link')) {
-                localStorage.setItem("sqqQLActive","true");
+                localStorage.setItem("sqqQLActive", "true");
                 createReturnQL();
             }
         });
@@ -106,24 +103,21 @@
         let QLactive = localStorage.getItem("sqqQLActive");
         if (QLactive == "true") {
             if (window.location.href != 'https://www.neopets.com/questlog/') {
-                // Create element
                 document.body.insertAdjacentHTML('afterbegin', returnQL);
                 document.querySelector("#sqq-return").classList.add("sqq-active");
-
-                // Create listeners
                 document.addEventListener('click', function(event) {
                     if (event.target.classList.contains('sqq-close-button')) {
                         sqqReturnClose();
                     }
                 });
             } else {
-                sqqReturnClose(); // auto close if on questlog page
-            };
-        };
+                sqqReturnClose();
+            }
+        }
     };
 
     function sqqReturnClose() {
-        localStorage.setItem("sqqQLActive","false");
+        localStorage.setItem("sqqQLActive", "false");
         document.querySelector("#sqq-return").classList.remove("sqq-active");
     };
 
@@ -132,5 +126,4 @@
     createLinks();
     createListeners();
     createReturnQL();
-
 })();
