@@ -54,9 +54,7 @@
 
     // == Define Task shortcuts ==
     const sqq_Dictionary = {
-        'purchase item(s)': ["https://www.neopets.com/faerieland/springs.phtml"],
-        'purchase 2 item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1"],
-        'purchase 3 item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1"],
+        'purchase item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1"],
         'excitement': ["https://www.neopets.com/faerieland/wheel.phtml"],
         'knowledge': ["https://www.neopets.com/faerieland/wheel.phtml"],
         'mediocrity': ["https://www.neopets.com/prehistoric/mediocrity.phtml"],
@@ -91,7 +89,7 @@
     // == Quick Return ==
     function createListeners() {
         document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('sqq-link')) {
+            if (event.target.tagName === 'A' && event.target.classList.contains('sqq-link')) {
                 localStorage.setItem("sqqQLActive", "true");
                 createReturnQL();
             }
@@ -126,4 +124,5 @@
     createLinks();
     createListeners();
     createReturnQL();
+
 })();
