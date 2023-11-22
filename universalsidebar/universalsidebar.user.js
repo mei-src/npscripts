@@ -8,6 +8,8 @@
 // @match        https://www.neopets.com/*
 // @match        https://ncmall.neopets.com/mall/*
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/mei-src/npscripts/main/universalsidebar/universalsidebar.user.js
+// @updateURL    https://raw.githubusercontent.com/mei-src/npscripts/main/universalsidebar/universalsidebar.user.js
 // ==/UserScript==
 
 (function() {
