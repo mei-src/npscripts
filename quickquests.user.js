@@ -17,11 +17,11 @@
     const sqq_Dictionary = {
         'purchase item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1"],
         'excitement': ["https://www.neopets.com/faerieland/wheel.phtml"],
-        'knowledge': ["https://www.neopets.com/faerieland/wheel.phtml"],
+        'knowledge': ["https://www.neopets.com/medieval/knowledge.phtml"],
         'mediocrity': ["https://www.neopets.com/prehistoric/mediocrity.phtml"],
         'misfortune': ["https://www.neopets.com/halloween/wheel/index.phtml"],
         'battle': ["https://www.neopets.com/dome/fight.phtml"],
-        'play': ["https://www.neopets.com/games/"],
+        'play': ["https://www.neopets.com/games/","https://www.neopets.com/games/game.phtml?game_id=805"],
         'feed': ["https://www.neopets.com/home/index.phtml"],
         'groom': ["https://www.neopets.com/home/index.phtml"],
         'customise': ["https://www.neopets.com/customise/"],
