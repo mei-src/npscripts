@@ -1,16 +1,16 @@
 # npscripts
 
-## **quickquests.user.js**
+## ❓ quickquests.user.js**
 - Status: done for now
 - Adds links to solve a daily quest's task. 
 - Links open in a new tab to prevent unecessary page loads.
 
-## **benny.user.js
+## 🐈 benny.user.js
 - Status: wip
 - Replaces all Wockies withinin text/images with Benny. 
 - Searching for a way to bring Benny to ../customise/.
 
-## universalsidebar.user.js
+## 🗺 universalsidebar.user.js
 - Status: alpha
 - Toggle-able sidebar to assist with navigating the website & various tasks.
 - Unifies both classic and beta site layouts with sidebar persistence between reloads and layout swaps.
