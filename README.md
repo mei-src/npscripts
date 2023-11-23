@@ -1,6 +1,6 @@
 # npscripts
 
-## ❓ quickquests.user.js**
+## ❓ quickquests.user.js
 - Status: done for now
 - Adds links to solve a daily quest's task. 
 - Links open in a new tab to prevent unecessary page loads.
