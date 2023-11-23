@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Starry's Quick Quests
 // @namespace    https://github.com/mei-src
-// @version      3.5
-// @description  [Final update: 11.Nov.2023] Adds links to solve each daily quest task step. Also links open in a new tab to prevent unnecessary refreshing.
+// @version      3.5.final
+// @description  (Last update: 11.Nov.2023) Adds links to solve each daily quest task step. Also links open in a new tab to prevent unnecessary refreshing.
 // @author       mei-src
 // @match        https://www.neopets.com/questlog
 // @grant        none
