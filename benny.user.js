@@ -65,9 +65,13 @@
     function addObserver() {
         const observer = new MutationObserver(mutations => {
             mutations.forEach(mutation => {
-                const petCareState = document.getElementById("petCare");
-
-                if (petCareState && petCareState.style.display == 'block') {                    parseText();
+                const petCareInfoImageElement = document.getElementById("petCareInfoImage");
+                if (
+                    petCareInfoImageElement &&
+                    mutation.target === petCareInfoImageElement &&
+                    mutation.attributeName === 'style' &&
+                    petCareInfoImageElement.style.backgroundImage !== mutation.oldValue
+                ) {
                     parseImages();
                 };
             });
