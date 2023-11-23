@@ -65,10 +65,11 @@
     function addObserver() {
         const observer = new MutationObserver(mutations => {
             mutations.forEach(mutation => {
-                if (document.getElementById('petCare')) {
-                    parseText();
+                const petCareState = document.getElementById("petCare");
+
+                if (petCareState && petCareState.style.display == 'block') {                    parseText();
                     parseImages();
-                }
+                };
             });
         });
     };
