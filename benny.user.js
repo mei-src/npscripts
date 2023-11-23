@@ -62,7 +62,16 @@
 
     };
 
+    function addListeners() {
+        let pet = document.querySelectorAll("slick-slide");
+        pet.addEventListener("click", function() {
+            parseText();
+            parseImages();
+        });
+    };
+
     parseText();
     parseImages();
-
+    if (window.location.href === "https://www.neopets.com/home/") {addListeners()};
+    
 })();
