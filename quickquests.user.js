@@ -4,7 +4,7 @@
 // @version      3.5.final
 // @description  (Last update: 11.Nov.2023) Adds links to solve each daily quest task step. Also links open in a new tab to prevent unnecessary refreshing.
 // @author       mei-src
-// @match        https://www.neopets.com/questlog
+// @match        https://www.neopets.com/questlog/
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/mei-src/npscripts/main/quickquests.user.js
 // @updateURL    https://raw.githubusercontent.com/mei-src/npscripts/main/quickquests.user.js
