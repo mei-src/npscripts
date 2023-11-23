@@ -606,6 +606,7 @@
 
     // CATEGORY TABS - what a mess...
     // EventListener - Set Active Tab
+    let sb_CategoryTabs = document.querySelectorAll(".sb_tab");
     sb_CategoryTabs.forEach(function(tab) {
         tab.addEventListener("click", function() {
             sb_CategoryTabs.forEach(function(otherTabs) {
@@ -620,7 +621,6 @@
     });
 
     // Load Active Tab
-    let sb_CategoryTabs = document.querySelectorAll(".sb_tab");
     let sb_lastActiveTabID = localStorage.getItem("sb_lastActiveTabID");
     if (sb_lastActiveTabID) {
         // Remove active from all other tabs
