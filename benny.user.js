@@ -83,8 +83,10 @@
         };
     };
 
+    // TODO: Find out a consistent way to replace the picture on the customise page //
+    /*
     function addCustomiseObserver() {
-        const petPreview = document.querySelector('#npcma_neopetcustomise img[data-zindex="38"]');
+        const petPreview = document.querySelector('#npcma_neopetcustomise img[data-zindex="7"]');
 
         if (petPreview) {
             const observer = new MutationObserver(mutations => {
@@ -102,12 +104,12 @@
             const observerConfig = { attributes: true, attributeOldValue: true };
             observer.observe(petPreview, observerConfig);
         };
-    };
+    }; 
+    if (window.location.href === "https://www.neopets.com/customise") {addCustomiseObserver()};
+    */
 
     parseText();
     parseImages();
-
     if (window.location.href === "https://www.neopets.com/home/") {addHomeObserver()};
-    if (window.location.href === "https://www.neopets.com/customise") {addCustomiseObserver()};
 
 })();
