@@ -62,16 +62,19 @@
 
     };
 
-    function addListeners() {
-        let pet = document.querySelectorAll("slick-slide");
-        pet.addEventListener("click", function() {
-            parseText();
-            parseImages();
+    function addObserver() {
+        const observer = new MutationObserver(mutations => {
+            mutations.forEach(mutation => {
+                if (document.getElementById('petCare')) {
+                    parseText();
+                    parseImages();
+                }
+            });
         });
     };
 
     parseText();
     parseImages();
-    if (window.location.href === "https://www.neopets.com/home/") {addListeners()};
-    
+    if (window.location.href === "https://www.neopets.com/home/") {addObserver()};
+
 })();
