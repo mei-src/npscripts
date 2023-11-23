@@ -62,7 +62,7 @@
 
     };
 
-    function addObserver() {
+    function addHomeObserver() {
         const petCareInfoImageElement = document.getElementById("petCareInfoImage");
 
         if (petCareInfoImageElement) {
@@ -83,9 +83,31 @@
         };
     };
 
+    function addCustomiseObserver() {
+        const petPreview = document.querySelector('#npcma_neopetcustomise img[data-zindex="38"]');
+
+        if (petPreview) {
+            const observer = new MutationObserver(mutations => {
+                mutations.forEach(mutation => {
+                    if (
+                        mutation.attributeName === 'src' &&
+                        petPreview.src !== mutation.oldValue
+                    ) {
+                        parseImages();
+                    }
+                });
+            });
+    
+            // Configure and start the observer
+            const observerConfig = { attributes: true, attributeOldValue: true };
+            observer.observe(petPreview, observerConfig);
+        };
+    };
+
     parseText();
     parseImages();
 
-    if (window.location.href === "https://www.neopets.com/home/") {addObserver()};
+    if (window.location.href === "https://www.neopets.com/home/") {addHomeObserver()};
+    if (window.location.href === "https://www.neopets.com/customise") {addCustomiseObserver()};
 
 })();
