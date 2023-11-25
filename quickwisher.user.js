@@ -21,7 +21,8 @@
 
     // DOM elements
     const checkboxElement = document.querySelector("#qw_checkbox");
-    const inputElement = document.querySelector('[name="wish"]');
+    const inputNPElement = document.querySelector("[name='donation']");
+    const inputWishElement = document.querySelector("[name='wish']");
     const labelElement = document.querySelector('label[for="qw_checkbox"]');
 
     // Injected HTML
@@ -37,23 +38,23 @@
     `;
 
     // Save state of checkbox
-    checkboxElement.addEventListener('change', function() {
+    checkboxElement.addEventListener("change", function() {
         const isChecked = checkboxElement.checked;
         localStorage.setItem(CHECKVALUE, isChecked ? "true" : "false");
-        if (isChecked) localStorage.setItem(WISHVALUE, inputElement.value);
+        if (isChecked) localStorage.setItem(WISHVALUE, inputWishElement.value);
     });
 
-    // Save value of input
-    inputElement.addEventListener('input', function() {
+    // Save value of wish input
+    inputWishElement.addEventListener("input", function() {
         if (localStorage.getItem(CHECKVALUE) === "true") {
-            localStorage.setItem(WISHVALUE, inputElement.value);
+            localStorage.setItem(WISHVALUE, inputWishElement.value);
         }
     });
 
     // On Page Load, set values if checked
     labelElement.insertAdjacentHTML("afterend", settingsMenu);
     if (localStorage.getItem(CHECKVALUE) === "true") {
-        $('[name="donation"]').val(NP);
-        $('[name="wish"]').val(localStorage.getItem(WISHVALUE)); 
+        inputNPElement.val(NP);
+        inputWishElement.val(localStorage.getItem(WISHVALUE)); 
     }
 })();
