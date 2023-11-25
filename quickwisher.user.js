@@ -37,6 +37,16 @@
         </div>
     `;
 
+    // On Page Load, set values if checked
+    labelElement.insertAdjacentHTML("afterend", settingsMenu);
+    if (localStorage.getItem(CHECKVALUE) === "true") {
+        checkboxElement.checked = true;
+        inputNPElement.val(NP);
+        inputWishElement.val(localStorage.getItem(WISHVALUE)); 
+    } else {
+        checkboxElement.checked = false;
+    };
+
     // Save state of checkbox
     checkboxElement.addEventListener("change", function() {
         const isChecked = checkboxElement.checked;
@@ -51,10 +61,4 @@
         }
     });
 
-    // On Page Load, set values if checked
-    labelElement.insertAdjacentHTML("afterend", settingsMenu);
-    if (localStorage.getItem(CHECKVALUE) === "true") {
-        inputNPElement.val(NP);
-        inputWishElement.val(localStorage.getItem(WISHVALUE)); 
-    }
 })();
