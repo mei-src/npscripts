@@ -23,7 +23,7 @@
     const checkboxElement = document.querySelector("#qw_checkbox");
     const inputNPElement = document.querySelector("[name='donation']");
     const inputWishElement = document.querySelector("[name='wish']");
-    const labelElement = document.querySelector('label[for="qw_checkbox"]');
+    const submitElement = document.querySelector('input[value="Make a Wish"]');
 
     // Injected HTML
     const settingsMenu = `
@@ -38,7 +38,7 @@
     `;
 
     // On Page Load, set values if checked
-    labelElement.insertAdjacentHTML("afterend", settingsMenu);
+    submitElement.insertAdjacentHTML("afterend", settingsMenu);
     if (localStorage.getItem(CHECKVALUE) === "true") {
         checkboxElement.checked = true;
         inputNPElement.val(NP);
