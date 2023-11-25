@@ -15,7 +15,7 @@
 
     // == Define Task shortcuts ==
     const sqq_Dictionary = {
-        'purchase item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1"],
+        'purchase item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1", "https://www.neopets.com/objects.phtml?obj_type=7&type=shop"],
         'excitement': ["https://www.neopets.com/faerieland/wheel.phtml"],
         'knowledge': ["https://www.neopets.com/medieval/knowledge.phtml"],
         'mediocrity': ["https://www.neopets.com/prehistoric/mediocrity.phtml"],

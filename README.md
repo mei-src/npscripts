@@ -33,5 +33,3 @@ Last updated: 25 November 2023
     - Combined notifications, friends panel, etc.
     - NP/NC/SSW/Bookmark shortcuts in a consistent location
     - Smart search with keywords and shortcuts, including fast travel, travel to NPC, ...
-
-
