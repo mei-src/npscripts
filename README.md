@@ -1,12 +1,17 @@
 # npscripts
+Last updated: 25 November 2023
 
 ## ❓ quickquests.user.js
-- Status: done for now
+- **Status**: Done
 - Adds links to solve a daily quest's task. 
 - Links open in a new tab to prevent unecessary page loads.
 
+## 🌠 quickwisher.user.js
+- **Status**: Done
+- Autoinputs NP and saves wishes for the Wishing Well.
+
 ## 🐈 benny.user.js
-- Status: wip
+- **Status**: ???
 - Replaces all Wockies withinin text/images with Benny. 
 - Searching for a way to bring Benny to ../customise/.
 
