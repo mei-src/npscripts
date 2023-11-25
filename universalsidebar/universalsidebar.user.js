@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starry"s Universal Neopets Sidebar
 // @namespace    https://github.com/mei-src
-// @version      2.0
+// @version      2.1
 // @description  Adds a useful sidebar to Neopets for consistent and quick navigation.
 // @author       mei-src
 // @match        http://www.neopets.com/*
@@ -112,8 +112,6 @@
     #sb_Bottom {
         flex: 1;
         overflow: hidden;
-        /* overflow: auto;
-        scrollbar-width: thin; */
     }
 
     .sb_bottomcategory {
@@ -219,7 +217,7 @@
     .sb_tag.sb_reference {color: #898ea6;}
     a.sb_tag {padding: 0; border-bottom: 2px dotted #89b4fa; border-radius: 0; position: relative; top: -3px;}
 
-    .sb_Button { ont-weight: 600;}
+    .sb_Button { font-weight: 600;}
     </style>
     `;
 
