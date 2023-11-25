@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Starry"s Universal Neopets Sidebar
+// @name         Starry's Universal Neopets Sidebar
 // @namespace    https://github.com/mei-src
 // @version      2.1
 // @description  Adds a useful sidebar to Neopets for consistent and quick navigation.
@@ -294,15 +294,15 @@
                             <li><a href="https://www.neopets.com/altador/colosseum/index.phtml">Altador Cup</a></li>
                             -->
                             <li><a href="https://www.neopets.com/games/">Game Room</a></li>
-                            <!--
                             <li><a href="https://www.neopets.com/games/favourites.phtml">Favorite Games</a></li>
+                            <!--
                             <li><a href="https://www.neopets.com/games/category.phtml?sortby=pop">Popular Games</a></li>
                             <li><a href="https://www.neopets.com/games/featuredgame/">Featured Game</a></li>
-                            -->
                             <li><a href="https://www.neopets.com/games/neoquest/neoquest.phtml">Neoquest I</a> <a href="https://neoquest.guide/" class="sb_tag">Guide</a></li>
                             <li><a href="https://www.neopets.com/games/nq2/index.phtml">Neoquest II</a> <a href="https://www.jellyneo.net/?go=neoquest2" class="sb_tag">Guide</a></li>
+                            -->
                             <li><a href="https://www.jellyneo.net/?go=links">JellyNeo Game Guides</a></li>
-                        </ul>
+                            </ul>
                         <ul class="sb_group" id="sb_GroupExplore">
                             <h2 class="sb_groupname">Explore</h2>
                             <li><a href="https://www.neopets.com/explore.phtml">World Map</a></li>
@@ -324,7 +324,7 @@
                         </ul>
                         <ul class="sb_group" id="sb_GroupShop">
                             <h2 class="sb_groupname">Shop</h2>
-                            <li><a href="https://www.neopets.com/shops/wizard.phtml">Shop Wizard</a></li>
+                            <li><a href="https://www.neopets.com/shops/wizard.phtml">Shop Wizard</a> (<a onclick="toggleSSW__2020()">SSW</a>)</li>
                             <li><a href="https://www.neopets.com/market.phtml?type=your">My Shop</a></li>
                             <li><a href="https://www.neopets.com/bank.phtml">Bank</a></li>
                             <li><a href="https://www.neopets.com/stockmarket.phtml?type=portfolio">Stock Portfolio</a></li>
@@ -342,11 +342,11 @@
                                     <li><a href="https://www.neopets.com/pirates/dubloonomatic.phtml">Dubloon-o-Matic</a></li>
                                     <li><a href="https://www.neopets.com/pirates/smugglerscove.phtml">Smuggler"s Cove</a></li>
                                     <li><a href="https://www.neopets.com/winter/igloo.phtml">Igloo Garage Sale</a></li>
-                                    <li><a href="https://www.neopets.com/winter/shopofmystery.phtml">Tarla"s Shop of Mysteries</a></li>
+                                    <li><a href="https://www.neopets.com/winter/shopofmystery.phtml">Tarla's Shop of Mysteries</a></li>
                                     <li><a href="https://www.neopets.com/faerieland/hiddentower938.phtml">Hidden Tower</a></li>
                                     <li><a href="https://www.neopets.com/moon/neocola.phtml">Neocola Machine</a></li>
-                                    <li><a href="https://www.neopets.com/magma/workshop.phtml">Tangor"s Workshop</a></li>
-                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=111">Cog"s Togs</a></li>
+                                    <li><a href="https://www.neopets.com/magma/workshop.phtml">Tangor's Workshop</a></li>
+                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=111">Cog's Togs</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -363,7 +363,6 @@
                             <h2 class="sb_groupname">Premium</h2>
                             <li><a href="https://secure.nc.neopets.com/auth/login?c=/managemembership/">Manage Membership</a></li>
                             <li><a href="https://www.neopets.com/premium/">Portal</a></li>
-                            <li><a onclick="toggleSSW__2020()">SSW</a></li>
                             <li><a href="https://www.neopets.com/journal/">My Journal</a></li>
                             <li><a href="https://www.neopets.com/games/neodeck/index.phtml?show=prem">Premium TCG</a></li>
                             <li><a href="https://www.neopets.com/premium/sc/">SpaceFaerie Scratchcards</a></li>
@@ -376,7 +375,7 @@
                     <div class="sb_box">
                         <ul class="sb_group" id="sb_GroupFreebies">
                             <h2 class="sb_groupname">Freebies</h2>
-                            <li id="sb-adventcalendar"><a href="https://www.neopets.com/winter/adventcalendar.phtml">Advent Calendar Day 8</a></li>
+                            <li id="sb-adventcalendar"><a href="https://www.neopets.com/winter/adventcalendar.phtml">Advent Calendar</a></li>
                             <li><a href="https://www.neopets.com/prehistoric/omelette.phtml">Giant Omelette</a></li>
                             <li><a href="https://www.neopets.com/jelly/jelly.phtml">Giant Jelly</a></li>
                             <li><a href="https://www.neopets.com/moviecentral/index.phtml">Movie Central</a></li>
@@ -429,6 +428,25 @@
                             <li><a href="https://www.neopets.com/stockmarket.phtml?type=portfolio">Stocks</a>: <a href="https://www.neopets.com/stockmarket.phtml?type=buy">Buy</a> / <a href="https://www.neopets.com/stockmarket.phtml?type=list&full=true">List</a></li>
                             <li><a href="">FC</a>: <a href="https://www.neopets.com/pirates/foodclub.phtml?type=bet">Place</a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=current_bets">Current </a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=collect">Collect</a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=history">History</a> <a href="https://www.neopets.com/~Shrmsh" class="sb_tag">Nsheng</a> <a href="https://neofood.club/" class="sb_tag">NFC</a></li>
                         </ul>
+                        <ul class="sb_group" id="sb_GroupExploration">
+                            <h2 class="sb_groupname">Exploration</h2>
+                            <li><a href="https://www.neopets.com/trudys_surprise.phtml">Trudy"s Surprise</a></li>
+                            <li><a href="https://www.neopets.com/pirates/anchormanagement.phtml">Anchor Management</a></li>
+                            <li><a href="https://www.neopets.com/desert/shrine.phtml">Coltzan's Shrine</a> <span class="sb_tag sb_cooldown">13h</span></li>
+                            <li><a href="https://www.neopets.com/desert/fruit/index.phtml">Fruit Machine</a></li>
+                            <li><a href="https://www.neopets.com/moon/meteor.phtml">Meteor</a> <span class="sb_tag sb_cooldown">60m</span></li>
+                            <li><a href="https://www.neopets.com/faerieland/tdmbgpop.phtml">Blue Plushie</a></li>
+                            <li><a href="https://www.neopets.com/island/tombola.phtml">Tombola</a></li>
+                            <li><a href="https://www.neopets.com/worlds/geraptiku/tomb.phtml">Deserted Tomb</a></li>
+                            <li><a href="https://www.neopets.com/worlds/kiko/kpop/">Kiko Pop</a></li>
+                            <li><a href="http://ncmall.neopets.com/games/giveaway/process_giveaway.phtml">Qasalan Expellibox</a> </li>
+                            <li><a href="https://www.neopets.com/shop_of_offers.phtml?slorg_payout=yes">Rich Slorg</a></li>
+                            <li><a href="https://www.neopets.com/halloween/applebobbing.phtml">Apple Bobbing</a> <span class="sb_tag sb_warn">⚠</span></li>
+                            <li><a href="https://www.neopets.com/magma/quarry.phtml">Moltara Quarry</a></li>
+                            <li><a href="https://www.neopets.com/medieval/symolhole.phtml">Symol Hole</a> <a href="https://www.jellyneo.net/?go=symolhole" class="sb_tag">Schedule</a></li>
+                            <li><a href="https://www.neopets.com/freebies/tarlastoolbar.phtml">Tarla's Tool Bar</a></li>
+                            <li><a href="https://www.neopets.com/water/fishing.phtml">Ye Olde Fishing</a> <span class="sb_tag sb_elapse">1h+</span></li>
+                        </ul>
                         <ul class="sb_group" id="sb_GroupPuzzles">
                             <h2 class="sb_groupname">Puzzles</h2>
                             <li><a href="https://www.neopets.com/community/index.phtml">Daily Puzzle</a> <a class="sb_tag sb-link" href="https://www.jellyneo.net/?go=dailypuzzle">JN</a></li>
@@ -439,25 +457,6 @@
                             <li><a href="https://www.neopets.com/medieval/potatocounter.phtml">Potato Counter</a></li>
                             <li><a href="https://www.neopets.com/shenkuu/lunar/">Lunar Temple</a></li>
                             <li><a href="https://www.neopets.com/shenkuu/neggcave/">Mysterious Negg Cave</a></li>
-                        </ul>
-                        <ul class="sb_group" id="sb_GroupExploration">
-                            <h2 class="sb_groupname">Exploration</h2>
-                            <li><a href="https://www.neopets.com/trudys_surprise.phtml">Trudy"s Surprise</a></li>
-                            <li><a href="https://www.neopets.com/pirates/anchormanagement.phtml">Anchor Management</a></li>
-                            <li><a href="https://www.neopets.com/desert/shrine.phtml">Coltzan"s Shrine</a> <span class="sb_tag sb_cooldown">13h</span></li>
-                            <li><a href="https://www.neopets.com/desert/fruit/index.phtml">Fruit Machine</a></li>
-                            <li><a href="https://www.neopets.com/moon/meteor.phtml">Meteor</a> <span class="sb_tag sb_cooldown">60m</span></li>
-                            <li><a href="https://www.neopets.com/faerieland/tdmbgpop.phtml">Blue Plushie</a></li>
-                            <li><a href="https://www.neopets.com/island/tombola.phtml">Tombola</a></li>
-                            <li><a href="https://www.neopets.com/worlds/geraptiku/tomb.phtml">Deserted Tomb</a></li>
-                            <li><a href="https://www.neopets.com/worlds/kiko/kpop/">Kiko Pop</a></li>
-                            <li><a href="http://ncmall.neopets.com/games/giveaway/process_giveaway.phtml">Qasalan Expellibox</a></li>
-                            <li><a href="https://www.neopets.com/shop_of_offers.phtml?slorg_payout=yes">Rich Slorg</a></li>
-                            <li><a href="https://www.neopets.com/halloween/applebobbing.phtml">Apple Bobbing</a> <span class="sb_tag sb_warn">⚠</span></li>
-                            <li><a href="https://www.neopets.com/magma/quarry.phtml">Moltara Quarry</a></li>
-                            <li><a href="https://www.neopets.com/medieval/symolhole.phtml">Symol Hole</a> <a href="https://www.jellyneo.net/?go=symolhole" class="sb_tag">Schedule</a></li>
-                            <li><a href="https://www.neopets.com/freebies/tarlastoolbar.phtml">Tarla</a></li>
-                            <li><a href="https://www.neopets.com/water/fishing.phtml">Ye Olde Fishing</a> <span class="sb_tag sb_elapse">1h+</span></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupNPRequired">
                             <h2 class="sb_groupname">NP Required</h2>
