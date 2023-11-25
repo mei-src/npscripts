@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Starry's Quick Wisher
 // @namespace    https://github.com/mei-src
-// @version      1.4
-// @description  (Last update: 11.Nov.2023) Adds links to solve each daily quest task step. Also links open in a new tab to prevent unnecessary refreshing.
+// @version      1.5
+// @description  Allows you to save your wish and autoinput on page load.
 // @author       mei-src
 // @match        https://www.neopets.com/wishing.phtml
 // @grant        none
