@@ -267,8 +267,9 @@
                             <h2 class="sb_groupname">Pets</h2>
                             <li><a href="https://www.neopets.com/quickref.phtml">Quick Ref</a></li>
                             <li><a href="https://www.neopets.com/customise/">Customize Pet</a> <a href="https://impress.openneo.net/" class="sb_tag">DtI Sim</a></li>
+                            <li><a href="https://www.neopets.com/edithomepage.phtml">Pet Pages</a></li>
                             <li><a href="https://www.neopets.com/addpet.phtml">Create Pet</a></li>
-                            <li><a href="https://www.neopets.com/pound">Adoption</a></li>
+                            <li><a href="https://www.neopets.com/pound">Pound</a></li>
                             <li><a href="https://www.neopets.com/neolodge.phtml">Neolodge</a></li>
                             <li><a href="https://www.neopets.com/pool">Rainbow Pool</a> <a href="https://wardrobe.jellyneo.net/rainbow-pool/" class="sb_tag">JN Previews</a></li>
                             <li><a href="https://www.neopets.com/magma/pool.phtml">Magma Pool</a> <span class="sb_tag sb_cooldown">7d</span></li>
