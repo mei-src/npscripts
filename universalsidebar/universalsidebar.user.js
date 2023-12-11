@@ -257,41 +257,42 @@
                             <li><a href="https://www.neopets.com/preferences.phtml">Settings</a></li>
                             <li><a href="https://www.neopets.com/neomessages.phtml">Neomail</a></li>
                             <li><a href="https://www.neopets.com/neofriends.phtml">Neofriends</a></li>
-                            <li><a href="https://www.neopets.com/settings/neoboards/">Collected Avatars</a> <a href="https://www.jellyneo.net/?go=avatars" class="sb_tag">Guide</a></li>
+                            <li><a href="https://www.neopets.com/settings/neoboards/">Collected Avatars</a> <a href="https://www.jellyneo.net/?go=avatars" class="sb_tag">JN Guide</a></li>
                             <li><a href="https://www.neopets.com/refer/index.phtml">Referrals</a></li>
                             <li><a href="https://www.neopets.com/space/warehouse/prizecodes.phtml">Redeem Code</a></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupPets">
                             <h2 class="sb_groupname">Pets</h2>
                             <li><a href="https://www.neopets.com/quickref.phtml">Quick Ref</a></li>
-                            <li><a href="https://www.neopets.com/customise/">Customize Pet</a> <a href="https://impress.openneo.net/" class="sb_tag">DtI Sim</a></li>
+                            <li><a href="https://www.neopets.com/customise/">Customize Pet</a> <a href="https://impress.openneo.net/" class="sb_tag">Dress to Impress</a></li>
                             <li><a href="https://www.neopets.com/edithomepage.phtml">Pet Pages</a></li>
                             <li><a href="https://www.neopets.com/addpet.phtml">Create Pet</a></li>
                             <li><a href="https://www.neopets.com/pound">Pound</a></li>
                             <li><a href="https://www.neopets.com/neolodge.phtml">Neolodge</a></li>
                             <li><a href="https://www.neopets.com/pool">Rainbow Pool</a> <a href="https://wardrobe.jellyneo.net/rainbow-pool/" class="sb_tag">JN Previews</a></li>
-                            <li><a href="https://www.neopets.com/magma/pool.phtml">Magma Pool</a> <span class="sb_tag sb_cooldown">7d</span></li>
+                            <li><a href="https://www.neopets.com/magma/pool.phtml">Magma Pool</a> <span class="sb_tag sb_cooldown">11:20 / 7d</span></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupInventory">
                             <h2 class="sb_groupname">Inventory</h2>
-                            <li><a href="https://www.neopets.com/inventory.phtml">Overview</a></li>
+                            <li><a href="https://www.neopets.com/inventory.phtml">Bag</a></li>
                             <li><a href="https://www.neopets.com/quickstock.phtml">Quickstock</a></li>
                             <li><a href="https://www.neopets.com/items/transfer_list.phtml">Transfer Log</a></li>
                             <li><a href="https://www.neopets.com/closet.phtml">Closet</a></li>
-                            <li><a href="https://www.neopets.com/safetydeposit.phtml">Safety Deposit Box</a></li>
-                            <li><a href="https://www.neopets.com/neohome/shed">Neohome Shed</a></li>
+                            <li><a href="https://www.neopets.com/safetydeposit.phtml">Safety Deposit Box</a> (<a href="https://www.neopets.com/safetydeposit.phtml?obj_name=&category=-1">NC</a>)</li>
                             <li><a href="https://www.neopets.com/gallery/index.phtml?view=all">My Gallery</a></li>
                             <li><a href="https://www.neopets.com/stamps.phtml?type=album">My Stamps</a></li>
                             <li><a href="https://www.neopets.com/tcg/album.phtml">My TCG</a></li>
                             <li><a href="https://www.neopets.com/ncma/">My NC Items</a></li>
-                            <li><a href="https://items.jellyneo.net/">JN Item Database</a></li>
+                            <li><a href="https://items.jellyneo.net/search/">JN Item Database</li>
+                            <li><a href="https://items.jellyneo.net/tools/">JN Checklists</a></li>
                             <li><a href="https://items.jellyneo.net/wishlists/">JN Wishlists</a></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupGames">
                             <h2 class="sb_groupname">Games</h2>
                             <li><a href="https://www.neopets.com/dome/">Battledome</a></li>
-                            <!-- <li><a href="https://www.neopets.com/games/defenders.phtml">Defenders of Neopia</a></li>
-                            <li><a href="https://www.neopets.com/altador/colosseum/index.phtml">Altador Cup</a></li>
+                            <!-- 
+                            <li><a href="https://www.neopets.com/games/defenders.phtml">Defenders of Neopia</a></li>
+                            <li><a href="https://www.neopets.com/altador/colosseum/index.phtml">Altador Cup</a></li> 
                             -->
                             <li><a href="https://www.neopets.com/games/">Game Room</a></li>
                             <li><a href="https://www.neopets.com/games/favourites.phtml">Favorite Games</a></li>
@@ -301,7 +302,6 @@
                             <li><a href="https://www.neopets.com/games/neoquest/neoquest.phtml">Neoquest I</a> <a href="https://neoquest.guide/" class="sb_tag">Guide</a></li>
                             <li><a href="https://www.neopets.com/games/nq2/index.phtml">Neoquest II</a> <a href="https://www.jellyneo.net/?go=neoquest2" class="sb_tag">Guide</a></li>
                             -->
-                            <li><a href="https://www.jellyneo.net/?go=links">JellyNeo Game Guides</a></li>
                             </ul>
                         <ul class="sb_group" id="sb_GroupExplore">
                             <h2 class="sb_groupname">Explore</h2>
@@ -314,41 +314,21 @@
                         <ul class="sb_group" id="sb_GroupCommunity">
                             <h2 class="sb_groupname">Community</h2>
                             <li><a href="https://www.neopets.com/community/">Community Central</a></li>
-                            <li><a href="https://www.neopets.com/nf.phtml">News</a></li>
+                            <li><a href="https://www.neopets.com/nf.phtml">What's New</a></li>
                             <li><a href="https://www.neopets.com/ntimes/index.phtml">Neopian Times</a></li>
                             <li><a href="https://www.neopets.com/contests.phtml">Spotlights</a></li>
                             <li><a href="https://www.neopets.com/neoboards/index.phtml">Neoboards</a></li>
                             <li><a href="https://www.neopets.com/noticeboard.phtml">Notice Board</a> (Broken)</li>
-                            <li><a href="https://www.neopets.com/guilds/guild.phtml?id=">My Guild</a></li>
-                            <li><a href="https://www.neopets.com/guilds/index.phtml">Guild Directory</a></li>
+                            <li><a href="https://www.neopets.com/guilds/guild.phtml?id=">User Guild</a> (<a href="https://www.neopets.com/guilds/index.phtml">Directory</a>)</li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupShop">
                             <h2 class="sb_groupname">Shop</h2>
-                            <li><a href="https://www.neopets.com/shops/wizard.phtml">Shop Wizard</a> (<a onclick="toggleSSW__2020()">SSW</a>)</li>
-                            <li><a href="https://www.neopets.com/market.phtml?type=your">My Shop</a></li>
+                            <li><a href="https://www.neopets.com/shops/wizard.phtml">Shop Wizard</a></li>
+                            <li><a href="https://www.neopets.com/market.phtml?type=your">User Shop</a> (Directories: <a href="https://www.neopets.com/market.phtml?type=list&limit=10">NC</a> | <a href="https://www.neopets.com/market.phtml?type=list&limit=10&world=1">MI</a> | <a href="https://www.neopets.com/market.phtml?type=list&limit=10&world=3">HW</a>) </li>
                             <li><a href="https://www.neopets.com/bank.phtml">Bank</a></li>
                             <li><a href="https://www.neopets.com/stockmarket.phtml?type=portfolio">Stock Portfolio</a></li>
                             <li><a href="https://www.neopets.com/auctions.phtml">Auctions</a></li>
                             <li><a href="https://www.neopets.com/island/tradingpost.phtml">Trading Post</a></li>
-                            <li><a href="https://www.jellyneo.net/?go=shopsdirectory">JellyNeo Shops Directory</a></li>
-                            <li>Player Marketplace
-                                <ul>
-                                    <li><a href="https://www.neopets.com/market.phtml?type=list&world=0">Neopia Central</a></li>
-                                    <li><a href="https://www.neopets.com/market.phtml?type=list&world=1">Mystery Island</a></li>
-                                    <li><a href="https://www.neopets.com/market.phtml?type=list&world=3">Haunted Marketplace</a></li>
-                                </ul></li>
-                            <li>Special Stores
-                                <ul>
-                                    <li><a href="https://www.neopets.com/pirates/dubloonomatic.phtml">Dubloon-o-Matic</a></li>
-                                    <li><a href="https://www.neopets.com/pirates/smugglerscove.phtml">Smuggler"s Cove</a></li>
-                                    <li><a href="https://www.neopets.com/winter/igloo.phtml">Igloo Garage Sale</a></li>
-                                    <li><a href="https://www.neopets.com/winter/shopofmystery.phtml">Tarla's Shop of Mysteries</a></li>
-                                    <li><a href="https://www.neopets.com/faerieland/hiddentower938.phtml">Hidden Tower</a></li>
-                                    <li><a href="https://www.neopets.com/moon/neocola.phtml">Neocola Machine</a></li>
-                                    <li><a href="https://www.neopets.com/magma/workshop.phtml">Tangor's Workshop</a></li>
-                                    <li><a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=111">Cog's Togs</a></li>
-                                </ul>
-                            </li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupNCMall">
                             <h2 class="sb_groupname">NC Mall</h2>
@@ -375,23 +355,20 @@
                     <div class="sb_box">
                         <ul class="sb_group" id="sb_GroupFreebies">
                             <h2 class="sb_groupname">Freebies</h2>
-                            <li id="sb-adventcalendar"><a href="https://www.neopets.com/winter/adventcalendar.phtml">Advent Calendar</a></li>
-                            <li><a href="https://www.neopets.com/prehistoric/omelette.phtml">Giant Omelette</a></li>
-                            <li><a href="https://www.neopets.com/jelly/jelly.phtml">Giant Jelly</a></li>
-                            <li><a href="https://www.neopets.com/moviecentral/index.phtml">Movie Central</a></li>
+                            <li id="sb-adventcalendar"><a href="https://www.neopets.com/winter/adventcalendar.phtml">Advent Calendar</a> & <a href="https://www.neopets.com/mall/stocking.phtml">Stocking Stufftacular</a></li>
+                            <li>Food: <a href="https://www.neopets.com/prehistoric/omelette.phtml">Giant Omelette</a> / <a href="https://www.neopets.com/jelly/jelly.phtml">Giant Jelly</a> / <a href="https://www.neopets.com/moviecentral/index.phtml">Movie Central</a></li>
                             <li><a href="https://www.neopets.com/soupkitchen.phtml">Soup Kitchen</a></li>
-                            <li><a href="https://www.neopets.com/donations.phtml">Money Tree</a></li>
-                            <li><a href="https://www.neopets.com/medieval/rubbishdump.phtml">Rubbish Dump</a></li>
-                            <li><a href="https://www.neopets.com/thriftshoppe/index.phtml">Second-Hand Shoppe</a></li>
+                            <li><a href="https://www.neopets.com/donations.phtml">Money Tree</a> / <a href="https://www.neopets.com/medieval/rubbishdump.phtml">Rubbish Dump</a> / <a href="https://www.neopets.com/thriftshoppe/index.phtml">Second-Hand Shoppe</a></li>
                             <li><a href="https://www.neopets.com/wishing.phtml">The Wishing Well</a></li>
                             <li><a href="https://www.neopets.com/faerieland/springs.phtml">Healing Springs</a> <span class="sb_tag sb_cooldown">30m</span></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupExpeditions">
                             <h2 class="sb_groupname">Expeditions</h2>
                             <li><a href="https://www.neopets.com/halloween/gravedanger/">Grave Danger</a> <span class="sb_tag sb_cooldown">8h</span></li>
-                            <li><a href="https://www.neopets.com/pirates/academy.phtml?type=courses">Swashbuckling Academy</a> <span class="sb_tag sb_cooldown">30m</span></li>
-                            <li><a href="https://www.neopets.com/island/training.phtml?type=courses">Mystery Island Training</a> <span class="sb_tag sb_cooldown">30m</span></li>
-                            <li><a href="https://www.neopets.com/island/fight_training.phtml?type=courses">Secret Ninja Training</a> <span class="sb_tag sb_cooldown">30m</span></li>
+                            <li><a href="https://www.neopets.com/pirates/academy.phtml?type=courses">Swashbuckling Academy</a> (Dubloons: <a href="https://www.neopets.com/shops/wizard.phtml?string=Dubloon+Coin">Buy</a>, <a href="https://www.neopets.com/safetydeposit.phtml?obj_name=&category=3">SDB</a>)<span class="sb_tag sb_cooldown">2h+</span></li>
+                            <li><a href="https://www.neopets.com/island/training.phtml?type=courses">Mystery Island Training</a> (Codestones: <a href="https://www.neopets.com/shops/wizard.phtml?string=Codestone">Buy</a>, <a href="https://www.neopets.com/safetydeposit.phtml?obj_name=&category=2">SDB</a>)<span class="sb_tag sb_cooldown">2h+</span></li>
+                            <li><a href="https://www.neopets.com/island/fight_training.phtml?type=courses">Secret Ninja Training</a> <span class="sb_tag sb_cooldown">2h+</span></li>
+                            <li><a href="https://www.neopets.com/water/fishing.phtml">Ye Olde Fishing</a> <span class="sb_tag sb_elapse">1h+</span></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupUnlocks">
                             <h2 class="sb_groupname">Unlocks</h2>
@@ -414,11 +391,11 @@
                             <li><a href="https://www.neopets.com/faerieland/employ/employment.phtml">Employment Agency</a></li>
                             <li><a href="https://www.neopets.com/space/coincidence.phtml">The Coincidence</a></li>
                             <li><a href="https://www.neopets.com/halloween/braintree.phtml">Brain Tree</a> <span class="sb_tag sb_cooldown">24h</span></li>
-                            <li><a href="https://www.neopets.com/halloween/esophagor.phtml">Esophagor"s Quests</a></li>
-                            <li><a href="https://www.neopets.com/medieval/earthfaerie.phtml?type=end&obj_given=18277&f=1&off=596778">Illusen"s Glade</a> <span class="sb_tag sb_cooldown">12h</span></li>
-                            <li><a href="https://www.neopets.com/faerieland/darkfaerie.phtml">Jhudora"s Bluff</a> <span class="sb_tag sb_cooldown">12h</span></li>
-                            <li><a href="https://www.neopets.com/halloween/witchtower.phtml">Edna"s Quests</a> <span class="sb_tag sb_counter">10</span></li>
-                            <li><a href="https://www.neopets.com/winter/snowfaerie.phtml">Taelia"s Quests</a> <span class="sb_tag sb_counter">10</span></li>
+                            <li><a href="https://www.neopets.com/halloween/esophagor.phtml">Esophagor's Quests</a></li>
+                            <li><a href="https://www.neopets.com/medieval/earthfaerie.phtml?type=end&obj_given=18277&f=1&off=596778">Illusen's Glade</a> <span class="sb_tag sb_cooldown">12h</span></li>
+                            <li><a href="https://www.neopets.com/faerieland/darkfaerie.phtml">Jhudora's Bluff</a> <span class="sb_tag sb_cooldown">12h</span></li>
+                            <li><a href="https://www.neopets.com/halloween/witchtower.phtml">Edna's Quests</a> <span class="sb_tag sb_counter">10</span></li>
+                            <li><a href="https://www.neopets.com/winter/snowfaerie.phtml">Taelia's Quests</a> <span class="sb_tag sb_counter">10</span></li>
                             <li><a href="https://www.neopets.com/island/kitchen.phtml">Kitchen Quests</a> <span class="sb_tag sb_counter">10</span></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupMoney">
@@ -426,26 +403,25 @@
                             <li><a href="https://www.neopets.com/market.phtml?type=till">Shop Till</a></li>
                             <li><a href="https://www.neopets.com/bank.phtml">Bank Interest</a></li>
                             <li><a href="https://www.neopets.com/stockmarket.phtml?type=portfolio">Stocks</a>: <a href="https://www.neopets.com/stockmarket.phtml?type=buy">Buy</a> / <a href="https://www.neopets.com/stockmarket.phtml?type=list&full=true">List</a></li>
-                            <li><a href="">FC</a>: <a href="https://www.neopets.com/pirates/foodclub.phtml?type=bet">Place</a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=current_bets">Current </a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=collect">Collect</a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=history">History</a> <a href="https://www.neopets.com/~Shrmsh" class="sb_tag">Nsheng</a> <a href="https://neofood.club/" class="sb_tag">NFC</a></li>
+                            <li><a href="">FC</a>: <a href="https://www.neopets.com/pirates/foodclub.phtml?type=bet">Place</a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=current_bets">Current </a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=collect">Collect</a> / <a href="https://www.neopets.com/pirates/foodclub.phtml?type=history">History</a> <a href="https://www.reddit.com/r/neopets/search/?q=%22Food+Club+Bets+-%22&sort=new&restrict_sr=on&t=all" class="sb_tag">Bets</a> <a href="https://neofood.club/" class="sb_tag">NFC</a></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupExploration">
-                            <h2 class="sb_groupname">Exploration</h2>
-                            <li><a href="https://www.neopets.com/trudys_surprise.phtml">Trudy"s Surprise</a></li>
+                            <h2 class="sb_groupname">Dailies</h2>
+                            <li><a href="https://www.neopets.com/trudys_surprise.phtml">Trudy's Surprise</a></li>
                             <li><a href="https://www.neopets.com/pirates/anchormanagement.phtml">Anchor Management</a></li>
                             <li><a href="https://www.neopets.com/desert/shrine.phtml">Coltzan's Shrine</a> <span class="sb_tag sb_cooldown">13h</span></li>
                             <li><a href="https://www.neopets.com/desert/fruit/index.phtml">Fruit Machine</a></li>
-                            <li><a href="https://www.neopets.com/moon/meteor.phtml">Meteor</a> <span class="sb_tag sb_cooldown">60m</span></li>
                             <li><a href="https://www.neopets.com/faerieland/tdmbgpop.phtml">Blue Plushie</a></li>
                             <li><a href="https://www.neopets.com/island/tombola.phtml">Tombola</a></li>
                             <li><a href="https://www.neopets.com/worlds/geraptiku/tomb.phtml">Deserted Tomb</a></li>
                             <li><a href="https://www.neopets.com/worlds/kiko/kpop/">Kiko Pop</a></li>
                             <li><a href="http://ncmall.neopets.com/games/giveaway/process_giveaway.phtml">Qasalan Expellibox</a> </li>
+                            <li><a href="https://www.neopets.com/moon/meteor.phtml">Meteor</a> <span class="sb_tag sb_cooldown">60m</span></li>
+                            <li><a href="https://www.neopets.com/magma/quarry.phtml">Moltara Quarry</a></li>
                             <li><a href="https://www.neopets.com/shop_of_offers.phtml?slorg_payout=yes">Rich Slorg</a></li>
                             <li><a href="https://www.neopets.com/halloween/applebobbing.phtml">Apple Bobbing</a> <span class="sb_tag sb_warn">⚠</span></li>
-                            <li><a href="https://www.neopets.com/magma/quarry.phtml">Moltara Quarry</a></li>
                             <li><a href="https://www.neopets.com/medieval/symolhole.phtml">Symol Hole</a> <a href="https://www.jellyneo.net/?go=symolhole" class="sb_tag">Schedule</a></li>
                             <li><a href="https://www.neopets.com/freebies/tarlastoolbar.phtml">Tarla's Tool Bar</a></li>
-                            <li><a href="https://www.neopets.com/water/fishing.phtml">Ye Olde Fishing</a> <span class="sb_tag sb_elapse">1h+</span></li>
                         </ul>
                         <ul class="sb_group" id="sb_GroupPuzzles">
                             <h2 class="sb_groupname">Puzzles</h2>
@@ -460,6 +436,11 @@
                         </ul>
                         <ul class="sb_group" id="sb_GroupNPRequired">
                             <h2 class="sb_groupname">NP Required</h2>
+                            <li><a href="https://www.neopets.com/faerieland/caverns/index.phtml">Faerie Caverns</a></li>
+                            <li><a href="https://www.neopets.com/space/strangelever.phtml">Lever of Doom</a></li>
+                            <li><a href="https://www.neopets.com/games/lottery.phtml">Neopian Lottery</a></li>
+                            <li><a href="https://www.neopets.com/medieval/pickyourown_index.phtml">Pick Your Own</a></li>
+                            <li><a href="https://www.neopets.com/prehistoric/ticketbooth.phtml">Tyrannian Ticket Booth</a></li>
                             <li>Wheels
                                 <ul>
                                     <li><a href="https://www.neopets.com/faerieland/wheel.phtml">Excitement</a> <span class="sb_tag sb_warn">⚠</span></li>
@@ -489,11 +470,6 @@
                                     <li><a href="https://www.neopets.com/halloween/strtest/index.phtml">Test Your Strength</a> <span class="sb_tag sb_cooldown">6h</span></li>
                                 </ul>
                             </li>
-                            <li><a href="https://www.neopets.com/games/lottery.phtml">Neopian Lottery</a></li>
-                            <li><a href="https://www.neopets.com/faerieland/caverns/index.phtml">Faerie Caverns</a></li>
-                            <li><a href="https://www.neopets.com/space/strangelever.phtml">Lever of Doom</a></li>
-                            <li><a href="https://www.neopets.com/medieval/pickyourown_index.phtml">Pick Your Own</a></li>
-                            <li><a href="https://www.neopets.com/prehistoric/ticketbooth.phtml">Tyrannian Ticket Booth</a></li>
                         </ul>
                     </div>
                 </div>
@@ -540,9 +516,224 @@
                             <li><a href="https://www.neopets.com/space/hangar.phtml">Virtupets: Hangar</a></li>
                             <li><a href="https://www.neopets.com/space/recreation.phtml">Virtupets: Recreation Dock</a></li>
                         </ul>
-                    </div>
-                </div>
+<!--
+                        <ul class="sb_group" id="sb_GroupShops">
+                            <h2 class="sb_groupname">Shops</h2>
+                            <li> Battledome: 
+                                <a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=2">Kauvara's Magic Shop</a> / 
+                                <a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=9f">Battle Magic</a> / 
+                                <a href="https://www.neopets.com/objects.phtml?type=shop&obj_type=10">Defense Magic</a> /                                 
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=23 Space Weaponry
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=24 Space Armour
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=36 Ice Crystal Shop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=45 Tyrannian Weaponry
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=54 Sakhmet Battle Supplies
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=59 Haunted Weaponry
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=73 Kayla's Potion Shop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=78 The Scrollery
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=80 Brightvale Armoury
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=82 Brightvale Motery
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=83 Royal Potionery
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=87 Maractite Marvels
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=91 Desert Arms
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=93 Faerie Weapon Shop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=94 Illustrious Armoury
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=96 Magical Marvels
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=100 Wonderous Weaponry
+                            </li>
+                            <li> Books
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=7 Magical Bookshop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=38 Faerieland Bookshop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=51 Sutek's Scrolls
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=70 Booktastic Books
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=77 Brightvale Books
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=92 Words of Antiquity
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=106 Neovian Printing Press
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=114 Moltaran Books
+                            </li>
+                            <li>Custom
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=4 Unis Clothing Shop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=107 Prigpants & Swolthy, Tailors
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=108 Mystical Surroundings
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=111 Cog's Togs
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=117  Ugga Shinies
+                            </li>
+                            <li>Collectables
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=8 Collectable Card Shop
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=58 Neopian Post Office
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=68 Collectable Coins
+                                https://www.neopets.com/objects.phtml?type=shop&obj_type=86 Collectable Sea Shells
+                            </li>
+                            <li>Food
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=1 Fresh Foods
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=14 Chocolate Factory
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=15 The Bakery
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=16 Health Foods
 
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=18 Smoothie Store
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=20 Tropical Food
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=22 Grundos Cafe
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=30 Spooky Food
+
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=34  The Coffee Cave
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=35 Slushie Shop
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=37 SHIFS Shop
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=39 Faerie Foods
+
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=42 Tyrannian Foods
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=46 Hubert's Hot Dogs
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=47  Pizzaroo
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=49    Lost Desert Foods
+
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=56    Merifoods
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=62    Jelly Foods
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=63    Refreshments
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=66    Kiko Lake Treats
+
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=72    Cafe Kreludor
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=81    Brightvale Fruits
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=90   Qasalan Delights
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=95    Exquisite Ambrosia
+
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=101    Exotic Foods
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=105    The Crumpet Monger
+                                    
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=112    Molten Morsels
+                            </li>
+                            <li>Neohome
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=12 Neopian Garden Centre
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=41 Neopian Furniture
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=43 Tyrannian Furniture
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=55 Osiri's Pottery
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=60 Spooky Furniture
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=67Kiko Lake Carpentry
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=69Petpet Supplies
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=71Kreludan Homes
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=75Faerie Furniture
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=76 Roo Island Souvenirs
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=79 Brightvale Glaziers
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=104 Chesterdrawers' Antiques
+                            https://www.neopets.com/neohome/shopNeohomes NP Superstore
+                            https://www.neopets.com/objects.phtml?type=shop&obj_type=110 Lampwyck's Lights Fantastic
+                            </li>
+                            <li>Medicine
+                            
+Neopian Pharmacy
+	
+Lost Desert Medicine
+	
+Remarkable Restoratives
+</li>
+                            <li>Petpets
+                            
+Neopian Petpet Shop
+	
+Robo-Petpet Shop
+	
+The Rock Pool
+	
+Spooky Petpets
+
+Faerieland Petpets
+	
+Tyrannian Petpets
+	
+Peopatra's Petpets
+	
+Ye Olde Petpets
+
+Wintery Petpets
+	
+Maraquan Petpets
+	
+Geraptiku Petpets
+	
+Legendary Petpets
+
+Fanciful Fauna
+	
+Krawk Island Nippers
+	
+Moltaran Petpets
+</li>
+                            <li>Toys
+
+                            Toy Shop
+	
+                            Usukiland
+                                
+                            Darigan Toys
+                                
+                            Plushie Palace
+                            
+                            Springy Things
+                            </li>
+                            <li>Misc.
+
+                            Grooming Parlour
+	
+                            Neopian Gift Shop
+                                
+                            Neopian Music Shop
+                                
+                            Neopian School Supplies
+                            
+                            Tiki Tack
+                            </li>
+                            <li>Special Shops
+                                <ul>
+
+                                Almost Abandoned Attic
+	
+                                Ever Stocked General Store
+                                    
+                                Healing Springs
+                                    
+                                Hidden Tower
+                                
+                                Igloo Garage Sale
+                                    
+                                The Neggery
+                                    
+                                Neohomes Superstore
+                                    
+                                The Second-Hand Shoppe
+                                
+                                Smugglers Cove
+                                    
+                                Tarla's Shop of Mystery
+                                
+                                    <li><a href="https://www.neopets.com/pirates/dubloonomatic.phtml">Dubloon-o-Matic</a></li>
+                                    <li><a href="https://www.neopets.com/pirates/smugglerscove.phtml">Smuggler's Cove</a></li>
+                                    <li><a href="https://www.neopets.com/winter/igloo.phtml">Igloo Garage Sale</a></li>
+                                    <li><a href="https://www.neopets.com/winter/shopofmystery.phtml">Tarla's Shop of Mysteries</a></li>
+                                    <li><a href="https://www.neopets.com/faerieland/hiddentower938.phtml">Hidden Tower</a></li>
+                                    <li><a href="https://www.neopets.com/moon/neocola.phtml">Neocola Machine</a></li>
+                                    <li><a href="https://www.neopets.com/magma/workshop.phtml">Tangor's Workshop</a></li>
+                                </ul>
+                            </li>
+                            -->
+                            </div>
+                </div>
             </div>
         </div>
     </nav>

@@ -1,0 +1,261 @@
+{
+  "Navigation": {
+    "Account": {
+      "Control Panel": ["/myaccount.phtml"],
+      "Settings":["/settings.phtml"],
+      "Neomail": ["/neomessages.phtml"],
+      "Neofriends": ["/neofriends.phtml"],
+      "Avatar Collection": ["/settings/neoboards", {
+        "JN Guide": ["https://www.jellyneo.net/?go=avatars", "external_link"]
+        }],
+      "Referrals": ["/refer"],
+      "Redeem Code": ["/space/warehouse/prizecodes.phtml"]
+    },
+    "Pets": {
+      "Quick Ref": ["/quickref.phtml"],
+      "Customize": ["/customise/"],
+      "Create Pet": ["/addpet.phtml"],
+      "Pound": ["/pound"],
+      "Neolodge": ["/neolodge.phtml", "counter_neolodge"],
+      "Rainbow Pool": ["/pool", {
+        "JN Guide": ["https://www.jellyneo.net/?go=avatars", "external_link"]
+        }],
+      "Magma Pool": ["/magma/pool.phtml", "counter_magma"]
+    },
+    "Inventory": {
+      "View Inventory": ["/inventory.phtml"],
+      "Quickstock": ["/quickstock.phtml"],
+      "Transfer Log": ["/items/transfer_list.phtml"],
+      "Safety Deposit Box": ["/safetydeposit.phtml", "dropdown_sdb"],
+      "Closet": ["/closet.phtml"],
+      "Neohome Shed": ["/neohome/shed"],
+      "My Gallery": ["/gallery/index.phtml?view=all"],
+      "My Collections": [{
+          "Stamps": ["/stamps.phtml?type=album"], 
+          "TCG": ["/tcg/album.phtml"],
+          "NC Items": ["/ncma/"]
+        }],
+      "JN Item Database": ["https://items.jellyneo.net/search/", "external_link"],
+      "JN Checklists": ["https://items.jellyneo.net/tools/", "external_link"],
+      "JN Wishlists": ["https://items.jellyneo.net/wishlists/", "external_link"]
+    },
+    "Games": {
+      "Battledome": ["/dome/", "counter_battledome"],
+      "Defenders of Neopia": ["/games/defenders.phtml"],
+      "Altador Cup": ["/altador/colossume/index.phtml"],
+      "Game Room": ["/games/", {
+        "Favorites": ["/games/favorites.phtml", "shortcut"],
+        "Popular": ["/games/category.phtml?sortby=pop", "shortcut"],
+        "Featured": ["/games/featuredgame", "shortcut"]
+      }]
+    },
+    "Explore": {
+      "World Map": ["/explore.phtml"],
+      "Pet Central": ["/petcentral.phtml"],
+      "Calendar": ["/calendar.phtml"],
+      "Neopedia": ["/neopedia.phtml"],
+      "Tutorial": ["/help/tutorial/index.phtml"]
+    },
+    "Community": {
+      "Community Central": ["/community/"],
+      "What's New": ["/nf.phtml"],
+      "Neopian Times": ["/ntimes/index.phtml"],
+      "Spotlight": ["/contest.phtml"],
+      "Neoboards": ["/neoboards/index.phtml"],
+      "Notice Board": ["/noticeboard.phtml"],
+      "User Guild": [{
+        "My Guild": ["/guilds/guild.phtml?id="],
+        "Guild Directory": ["/guilds/index.phtml"]
+      }]
+    },
+    "Shop": {
+      "Shop Wizard": ["/shops/wizard.phtml"],
+      "User Shop": [{
+        "My Shop": ["/market.phtml?type=your"],
+        "Shop Directory": [{
+          "Neopia Central": ["/market.phtml?type=list&world=0"],
+          "Mystery Island": ["/market.phtml?type=list&world=1"],
+          "Haunted Marketplace": ["/market.phtml?type=list&world=3"]  
+        }],
+      "Bank": ["/bank.phtml"],
+      "Auctions": ["/auctions.phtml"],
+      "Trading Post": ["/island/tradingpost.phtml"],
+      "Stock Portfolio": ["/stockmarket.phtml?type=portfolio"],
+      "Dubloon-o-Matic": ["/pirates/dubloonomatic.phtml"]
+      }]
+    },
+    "NCMall": {
+      "NC Mall": ["http://ncmall.neopets.com/mall/shop.phtml"],
+      "Fortune Cookies": ["http://ncmall.neopets.com/mall/fortune/"],
+      "Buy NC": ["https://secure.nc.neopets.com/get-neocash"],
+      "Redeem NC Cards": ["https://secure.nc.neopets.com/redeemnc"],
+      "Merch Shop": ["https://neopetsshop.com/"],
+      "Merch Partners": ["https://www.neopets.com/shopping/index.phtml"]
+    },
+    "Premium": {
+      "Manage Membership": ["https://secure.nc.neopets.com/auth/login?c=/managemembership/"],
+      "Portal": ["/premium/"],
+      "My Journal": ["/journal/"],
+      "Premium TCG": ["/games/neodeck/index.phtml?show=prem"],
+      "SpaceFaerie Scratchcards": ["/premium/sc/"]
+    }
+  },
+  "Dailies": {
+    "Freebies": {
+      "Seasonal": {
+        "Advent Calendar": ["/winter/adventcalendar.phtml"],
+        "Stocking Stufftacular": ["/mall/stocking.phtml"]  
+      },
+      "Free Food": {
+        "Giant Omelette": ["/prehistoric/omelette.phtml"],
+        "Giant Jelly": ["/jelly/jelly.phtml"],  
+        "Movie Central": ["/moviecentral/index.phtml"],
+        "Soup Kitchen": ["/soupkitchen.phtml"]
+      },
+      "Donations": {
+        "Money Tree": ["/donations.phtml"],
+        "Rubbish Dump": ["/medieval/rubbishdump.phtml"],
+        "Second-Hand Shoppe": ["/thriftshoppe/index.phtml"]
+      },
+      "The Wishing Well": ["/wishing.phtml", "counter_wishingwell"],
+      "Healing Springs": ["/faerieland/springs.phtml", "counter_healingsprings"],
+    },
+    "Expeditions": {
+      "Grave Danger": ["/halloween/gravedanger/"],
+      "Swashbuckling Academy": ["/pirates/academy.phtml?type=courses", "counter_trainingT1", "currency_dubloons"],
+      "Mystery Island Training": ["/island/training.phtml?type=courses", "counter_trainingT2", "currency_codestonesT1"],
+      "Secret Ninja Training": ["/island/fight_training.phtml?type=courses", "counter_trainingT3", "currency_codestonesT2"],
+      "Meteor": ["", "counter_meteor"],
+      "Ye Olde Fishing": ["/water/fishing.phtml", "counter_fishing"]
+    },
+    "Daily Reset": {
+      "Forgotten Shore": ["/pirates/forgottenshore.phtml", "unlock_forgottenshore"],
+      "Lab Ray": ["/lab.phtml", "unlock_labray"],
+      "Petpet Lab Ray": ["/petpetlab.phtml", "unlock_petpetlab"],
+      "Council Chambers": ["/altador/hallofheroes.phtml", "unlock_councilchambers"],
+      "Dark Cave": ["/magma/darkcave.phtml", "unlock_darkcave"],
+      "Trudy's Surprise": ["/trudys_surprise.phtml"],
+      "Anchor Management": ["/pirates/anchormanagement.phtml"],
+      "Coltzan's Shrine": ["/desert/shrine.phtml", "counter_coltzan"],
+      "Fruit Machine": ["/desert/fruit/index.phtml"],
+      "Tombola": ["/island/tombola.phtml"],
+      "Deserted Tomb": ["/worlds/geraptiku/tomb.phtml"],
+      "Kiko Pop": ["/worlds/kiko/kpop/", "flash"],
+      "Moltara Quarry": ["/magma/quarry.phtml"],
+      "Rich Slorg": ["/shop_of_offers.phtml?slorg_payout=yes"],
+      "Apple Bobbing": ["/halloween/applebobbing.phtml", "risk"],
+      "Tarla's Tools": ["/freebies/tarlastoolbar.phtml"]
+    },
+    "Scheduled": {
+      "Deadly Dice": ["/worlds/deadlydice.phtml", "schedule_deadlydice"],
+      "Snowager": ["/winter/snowager.phtml", "schedule_snowager"],
+      "Turmaculus": ["/medieval/turmaculus.phtml", {
+        "Schedule": ["/~Brownhownd"]
+      }],
+      "Symol Hole": ["/medieval/symolhole.phtml", {
+        "Schedule": ["https://www.jellyneo.net/?go=symolhole"]
+      }]
+    },
+    "Quests": {
+      "Quest Log": ["/questlog/"],
+      "Faerie Quests": ["/quests.phtml"],
+      "Employment Agency": ["/faerieland/employ/employment.phtml"],
+      "The Coincidence": ["/space/coincidence.phtml"],
+      "Brain Tree": ["/halloween/braintree.phtml", "counter_braintree"],
+      "Esophagor's Quests": ["/halloween/esophagor.phtml", "counter_esophagor"],
+      "Illusen's Glade": ["/medieval/earthfaerie.phtml", "counter_illusen"],
+      "Jhudora's Bluff": ["/faerieland/darkfaerie.phtml", "counter_jhudora"],
+      "Edna's Quests": ["/halloween/witchtower.phtml", "counter_edna"],
+      "Taelia's Quests": ["/winter/snowfaerie.phtml", "counter_taelia"],
+      "Kitchen Quests": ["/island/kitchen.phtml", "counter_kitchen"],    
+    },
+    "Puzzles": {
+      "Daily Puzzle": ["/community/index.phtml", {
+        "JN Solve": ["https://www.jellyneo.net/?go=dailypuzzle", "external_link"]
+      }],
+      "Faerie Crossword": ["/games/crossword/index.phtml", {
+        "JN Solve": ["https://www.jellyneo.net/?go=faerie_crossword", "external_link"]
+      }],
+      "Grumpy Old King": ["/medieval/grumpyking.phtml"],
+      "Wise Old King": ["/medieval/wiseking.phtml"],
+      "Guess the Weight": ["/medieval/guessmarrow.phtml"],
+      "Potato Counter": ["/medieval/potatocounter.phtml"],
+      "Lunar Temple": ["/shenkuu/lunar/"],
+      "Mysterious Negg Cave": ["/shenkuu/neggcave/"]
+    },
+    "NP Required": {
+      "Neopian Lottery": ["/games/lottery.phtml"],
+      "Faerie Caverns": ["/faerieland/caverns/index.phtml"],
+      "Lever of Doom": ["/space/strangelever.phtml"],
+      "Pick Your Own": ["/medieval/pickyourown_index.phtml"],
+      "Tyrannian Ticket Booth": ["/prehistoric/ticketbooth.phtml", "today_ticketbooth"],
+      "Wheels": {
+        "Excitement Wheel": ["/faerieland/wheel.phtml", "risk"],
+        "Extravagance Wheel": ["/desert/extravagance.phtml"],
+        "Knowledge Wheel": ["/medieval/knowledge.phtml"],
+        "Mediocrity Wheel": ["/prehistoric/mediocrity.phtml"],
+        "Misfortune Wheel": ["/halloween/wheel/index.phtml", "risk"],
+        "Monotony Wheel": ["/prehistoric/monotony/monotony.phtml"]
+      },
+      "Scratchcards": {
+        "Haunted Fairgrounds Scratchcard": ["/halloween/scratch.phtml", "counter_scratchcard_hfg"],
+        "Desert Kiosk Scratchcard": ["/desert/sc/kiosk.phtml", "counter_scratchcard_dk"],
+        "Ice Caves Scratchcard": ["/winter/kiosk.phtml", "counter_scratchcard_ic"],
+      },
+      "Multi Attempts": {
+        "Buried Treasure": ["/pirates/buriedtreasure/index.phtml", "counter_buriedtreasure"],
+        "Poogle Racing": ["/faerieland/poogleracing.phtml", "counter_pooglerace"],
+        "Cheeseroller": ["/medieval/cheeseroller.phtml", "counter_cheeseroller"],
+        "Turdle Racing": ["/medieval/turdleracing.phtml", "counter_turdlerace"],
+        "Bagatelle": ["/halloween/bagatelle.phtml", "counter_bagatelle"],
+        "Coconut Shy": ["/halloween/coconutshy.phtml", "counter_coconutshy"],
+        "Cork Gun Gallery": ["/halloween/corkgun.phtml", "counter_corkgun"],
+        "Test Your Strength": ["/halloween/strtest/index.phtml", "counter_teststrength"]
+      }
+    }
+  },
+  "Atlas": {
+    "Location": {
+      "Altador": ["/altador/index.phtml"],
+      "Brightvale": ["/medieval/brightvale.phtml"],
+      "Faerieland": ["/faerieland/index.phtml"],
+      "Faerie City": ["/faerieland/faeriecity.phtml"],
+      "Haunted Woods": ["/halloween/index.phtml"],
+      "The Deserted Fairground": ["/halloween/index_fair.phtml"],
+      "Neovia": ["/halloween/neovia.phtml"],
+      "Kiko Lake": ["/worlds/index_kikolake.phtml"],
+      "Krawk Island": ["/pirates/index.phtml"],
+      "Warf Wharf": ["/pirates/warfwharf.phtml"],
+      "Kreludor": ["/moon/index.phtml"],
+      "Lutari Island": ["/tropical/index.phtml"],
+      "Maraqua": ["/water/index.phtml"],
+      "Maraquan Ruins": ["/water/index_ruins.phtml"],
+      "Meridell": ["/medieval/index.phtml"],
+      "Meridell Castle": ["/medieval/index_castle.phtml"],
+      "Moltara": ["/magma/index.phtml"],
+      "Moltara Caves": ["/magma/caves.phtml"],
+      "Mystery Island": ["/island/index.phtml"],
+      "The Lost City of Geraptiku": ["/worlds/index_geraptiku.phtml"],
+      "Neopia Central": ["/objects.phtml"],
+      "Neopian Bazaar": ["/market_bazaar.phtml"],
+      "Neopian Plaza": ["/market_plaza.phtml"],
+      "Roo Island": ["/worlds/index_roo.phtml"],
+      "Shenkuu": ["/shenkuu/index.phtml"],
+      "Terror Mountain": ["/winter/index.phtml"],
+      "Top of Terror Mountain": ["/winter/terrormountain.phtml"],
+      "Ice Caves": ["/winter/icecaves.phtml"],
+      "The Lost Desert": ["/desert/index.phtml"],
+      "The City of Sakhmet": ["/desert/sakhmet.phtml"],
+      "The City of Qasala": ["/desert/qasala.phtml"],
+      "Tyrannia": ["/prehistoric/index.phtml"],
+      "Tyrannian Plateau": ["/prehistoric/plateau.phtml"],
+      "Virtupets Space Station": ["/space/index.phtml"],
+      "Virtupets: Hangar": ["/space/hangar.phtml"],
+      "Virtupets: Recreation Dock": ["/space/recreation.phtml"]
+    },
+    "Shops": {
+
+    }
+  }
+}
+
