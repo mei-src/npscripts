@@ -15,16 +15,30 @@
 
     // == Define Task shortcuts ==
     const sqq_Dictionary = {
-        'purchase item(s)': ["https://www.neopets.com/faerieland/springs.phtml", "https://www.neopets.com/objects.phtml?type=shop&obj_type=1", "https://www.neopets.com/objects.phtml?obj_type=7&type=shop"],
-        'excitement': ["https://www.neopets.com/faerieland/wheel.phtml"],
-        'knowledge': ["https://www.neopets.com/medieval/knowledge.phtml"],
-        'mediocrity': ["https://www.neopets.com/prehistoric/mediocrity.phtml"],
-        'misfortune': ["https://www.neopets.com/halloween/wheel/index.phtml"],
-        'battle': ["https://www.neopets.com/dome/fight.phtml"],
-        'play': ["https://www.neopets.com/games/","https://www.neopets.com/games/game.phtml?game_id=805"],
-        'feed': ["https://www.neopets.com/home/index.phtml"],
-        'groom': ["https://www.neopets.com/home/index.phtml"],
-        'customise': ["https://www.neopets.com/customise/"],
+    'purchase item(s)': [
+        ["Healing Springs", "https://www.neopets.com/faerieland/springs.phtml"],
+        ["Shops", "https://www.google.com/search?q=site:https://www.neopets.com/objects.phtml%3Ftype%3Dshop%26obj_type%3D&sca_esv=589872414&filter=0&biw=1648&bih=1024&dpr=1"]
+    ],
+    'excitement': ["Spin", "https://www.neopets.com/faerieland/wheel.phtml"],
+    'knowledge': ["Spin", "https://www.neopets.com/medieval/knowledge.phtml"],
+    'mediocrity': ["Spin", "https://www.neopets.com/prehistoric/mediocrity.phtml"],
+    'misfortune': ["Spin", "https://www.neopets.com/halloween/wheel/index.phtml"],
+    'battle': ["Battle", "https://www.neopets.com/dome/fight.phtml"],
+    'play': [
+        ["Game Room", "https://www.neopets.com/games/"],
+        ["Fashion Fever", "https://www.neopets.com/games/game.phtml?game_id=805"]
+    ],
+    'feed': [
+        ["Feed Pet", "https://www.neopets.com/home/index.phtml"],
+        ["Safety Deposit Box", "https://www.neopets.com/safetydeposit.phtml?obj_name=&category=18"],
+        ["Giant Omelette", "https://www.neopets.com/prehistoric/omelette.phtml"]
+    ],
+    'groom': [
+        ["Groom Pet", "https://www.neopets.com/home/index.phtml"], 
+        ["Safety Deposit Box", "https://www.neopets.com/safetydeposit.phtml?offset=0&obj_name=&category=10"],
+        ["General Store", "https://www.neopets.com/generalstore.phtml"]
+    ],
+    'customise': ["Customise", "https://www.neopets.com/customise/"],
     };
 
 
@@ -34,10 +48,10 @@
         const lowerCaseTaskText = task.textContent.toLowerCase();
         for (const k in sqq_Dictionary) {
             if (lowerCaseTaskText.includes(k.toLowerCase())) {
-                for (const url of sqq_Dictionary[k]) {
+                for (const [text, url] of sqq_Dictionary[k]) {
                     const link = document.createElement('a');
                     link.href = url;
-                    link.textContent = `🔗`;
+                    link.textContent = `🔗 ${text}`;
                     link.target = "_blank";
                     link.className = "sqq_QuestLogLink";
                     task.appendChild(link);
