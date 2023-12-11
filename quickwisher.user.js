@@ -14,19 +14,8 @@
     'use strict';
 
     // Inject HTML
-    const settingsMenu = `
-        <style>
-            #qw_quickWisher {display: block;}
-            #qw_wrapper:hover, #qw_wrapper:hover input, #qw_wrapper:hover label {cursor:pointer};
-        </style>
-
-        <div id="qw_quickWisher">
-            <div class="qw_wrapper">
-                <input type="checkbox" id="qw_checkbox">    
-                <label for="qw_checkbox">Remember wish</label>
-            </div>
-        </div>
-    `;
+    const settingsMenu = `<style>#qw_quickWisher{display:block}#qw_wrapper:hover,#qw_wrapper:hover input,#qw_wrapper:hover label{cursor:pointer}</style>
+<div id="qw_quickWisher"><div class="qw_wrapper"><input type="checkbox" id="qw_checkbox"><label for="qw_checkbox">Remember wish</label></div></div>`;
     const submitElement = document.querySelector('input[value="Make a Wish"]');
     submitElement.insertAdjacentHTML("afterend", settingsMenu);
 
