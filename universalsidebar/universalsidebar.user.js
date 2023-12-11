@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starry's Universal Neopets Sidebar
 // @namespace    https://github.com/mei-src
-// @version      2.1
+// @version      2.2
 // @description  Adds a useful sidebar to Neopets for consistent and quick navigation.
 // @author       mei-src
 // @match        http://www.neopets.com/*

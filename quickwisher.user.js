@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Starry's Quick Wisher
 // @namespace    https://github.com/mei-src
-// @version      1.6
+// @version      1.7
 // @description  Allows you to save your wish and autoinput on page load.
 // @author       mei-src
 // @match        https://www.neopets.com/wishing.phtml
