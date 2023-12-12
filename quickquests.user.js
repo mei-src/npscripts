@@ -19,11 +19,11 @@
         ["Healing Springs", "https://www.neopets.com/faerieland/springs.phtml"],
         ["Shops", "https://www.google.com/search?q=site:https://www.neopets.com/objects.phtml%3Ftype%3Dshop%26obj_type%3D&sca_esv=589872414&filter=0&biw=1648&bih=1024&dpr=1"]
     ],
-    'excitement': ["Spin", "https://www.neopets.com/faerieland/wheel.phtml"],
-    'knowledge': ["Spin", "https://www.neopets.com/medieval/knowledge.phtml"],
-    'mediocrity': ["Spin", "https://www.neopets.com/prehistoric/mediocrity.phtml"],
-    'misfortune': ["Spin", "https://www.neopets.com/halloween/wheel/index.phtml"],
-    'battle': ["Battle", "https://www.neopets.com/dome/fight.phtml"],
+    'excitement': [["Spin", "https://www.neopets.com/faerieland/wheel.phtml"]],
+    'knowledge': [["Spin", "https://www.neopets.com/medieval/knowledge.phtml"]],
+    'mediocrity': [["Spin", "https://www.neopets.com/prehistoric/mediocrity.phtml"]],
+    'misfortune': [["Spin", "https://www.neopets.com/halloween/wheel/index.phtml"]],
+    'battle': [["Battle", "https://www.neopets.com/dome/fight.phtml"]],
     'play': [
         ["Game Room", "https://www.neopets.com/games/"],
         ["Fashion Fever", "https://www.neopets.com/games/game.phtml?game_id=805"]
@@ -38,7 +38,7 @@
         ["Safety Deposit Box", "https://www.neopets.com/safetydeposit.phtml?offset=0&obj_name=&category=10"],
         ["General Store", "https://www.neopets.com/generalstore.phtml"]
     ],
-    'customise': ["Customise", "https://www.neopets.com/customise/"],
+    'customise': [["Customise", "https://www.neopets.com/customise/"]],
     };
 
 
